@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="47609" started-at="2019-08-22T07:32:54Z" finished-at="2019-08-22T07:33:42Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="47609" started-at="2019-08-22T07:32:54Z" finished-at="2019-08-22T07:33:42Z">
+      <class name="com.application.testcases.TC01_SearchBooks">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.application.testcases.TC01_SearchBooks@59ec2012]" name="beforeSuite" is-config="true" duration-ms="712" started-at="2019-08-22T07:32:53Z" finished-at="2019-08-22T07:32:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="setData()[pri:0, instance:com.application.testcases.TC01_SearchBooks@59ec2012]" name="setData" is-config="true" duration-ms="0" started-at="2019-08-22T07:32:54Z" finished-at="2019-08-22T07:32:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.application.testcases.TC01_SearchBooks@59ec2012]" name="beforeClass" is-config="true" duration-ms="2" started-at="2019-08-22T07:32:54Z" finished-at="2019-08-22T07:32:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.application.testcases.TC01_SearchBooks@59ec2012]" name="beforeMethod" is-config="true" duration-ms="14344" started-at="2019-08-22T07:32:55Z" finished-at="2019-08-22T07:33:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="searchBooksAndPrintDetails(java.lang.String, java.lang.String)[pri:0, instance:com.application.testcases.TC01_SearchBooks@59ec2012]" name="searchBooksAndPrintDetails" duration-ms="30315" started-at="2019-08-22T07:33:10Z" data-provider="fetchData" finished-at="2019-08-22T07:33:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Books]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[data]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchBooksAndPrintDetails -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.application.testcases.TC01_SearchBooks@59ec2012]" name="afterMethod" is-config="true" duration-ms="1855" started-at="2019-08-22T07:33:40Z" finished-at="2019-08-22T07:33:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.application.testcases.TC01_SearchBooks@59ec2012]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-08-22T07:33:42Z" finished-at="2019-08-22T07:33:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.application.testcases.TC01_SearchBooks@59ec2012]" name="afterSuite" is-config="true" duration-ms="931" started-at="2019-08-22T07:33:42Z" finished-at="2019-08-22T07:33:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.application.testcases.TC01_SearchBooks -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
